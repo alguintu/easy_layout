@@ -13,7 +13,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  fluid_kit: ^2.1.0
+  fluid_kit:
+    git:
+      url: https://github.com/fabiocody/fluid_box
+      ref: flutter-3.13
+      path: package/
   # intersperse: ^1.1.1
 
 dev_dependencies:
